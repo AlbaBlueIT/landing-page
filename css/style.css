@@ -1,3 +1,13 @@
+/* CSS HEX 
+--blue: #1728fd;
+--black: #000000;
+--white: #ffffff;
+--maize: #fff175;
+--mint: #09bc8a;
+--lavender-floral: #b388eb;
+--french-rose: #f83a83;
+*/
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -25,3 +35,12 @@ body {
 footer {
     margin-top: 2rem;
 }
+
+.nav-item {
+    padding: 0 2em;
+}
+
+.nav-link {
+
+}
+
