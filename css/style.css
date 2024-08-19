@@ -11,7 +11,6 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
 }
 
 .hero {
@@ -39,8 +38,18 @@ footer {
 .nav-item {
     padding: 0 2em;
 }
-
-.nav-link {
-
+.navbar-brand{
+    height: 30px;
+    width: 30px;
+}
+#navbarNav > ul > a .nav-link{
+color: #1728fd;
 }
 
+#home{
+height: 75vh;
+}
+
+.lead .text-muted{
+
+}
