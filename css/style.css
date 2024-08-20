@@ -145,6 +145,7 @@ footer {
 
 .cta-ab:hover{
     background-color: #1728fd;
+    border: 1px solid transparent;
 }
 
 .about{
