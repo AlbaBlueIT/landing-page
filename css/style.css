@@ -6,20 +6,91 @@
 --mint: #09bc8a;
 --lavender-floral: #b388eb;
 --french-rose: #f83a83;
+color: #1728fd;
 */
 
+.ABlue{
+    color: #09bc8a;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
+    font-family: "Martian Mono", monospace;
 }
 
 .hero {
-    min-height: 100vh;
+    min-height: 75vh;
 }
 
+/* Base styles for all cards */
 .card {
-    border: none;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+/* Consulting Card Styles */
+.consulting-card::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #fff175; /* Maize */
+    border-radius: 50%;
+    top: 10%;
+    left: -17.5px; /* Half of the circle width to align it on the left border */
+}
+
+/* Teams Tactics Card Styles */
+.teams-tactics-card::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #09bc8a; /* Mint */
+    border-radius: 50%;
+    top: 15%;
+    right: -17.5px; /* Half of the circle width to align it on the right border */
+}
+
+/* Innovation Card Styles */
+.innovation-card::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #b388eb; /* Lavender Floral */
+    border-radius: 50%;
+    bottom: -17.5px; /* Half of the circle height to align it on the bottom border */
+    left: 15%;
+}
+
+/* Academy Card Styles */
+.academy-card::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #f83a83; /* French Rose */
+    border-radius: 50%;
+    top: -17.5px; /* Half of the circle height to align it on the top border */
+    right: 10%;
+}
+
+/* Delivery Card Styles */
+.delivery-card::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #1728fd; /* Custom Blue */
+    border-radius: 50%;
+    bottom: 10%;
+    left: -17.5px; /* Half of the circle width to align it on the left border */
+}
+
 
 .card-title {
     font-size: 1.5rem;
@@ -36,20 +107,58 @@ footer {
 }
 
 .nav-item {
-    padding: 0 2em;
+    padding: 0 1em;
 }
-.navbar-brand{
-    height: 30px;
-    width: 30px;
+
+.nav-link{
+
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:#000000;
+    Font-size:1rem;
 }
-#navbarNav > ul > a .nav-link{
-color: #1728fd;
-}
+
+.nav-link:hover{
+    color:#1728fd;
+ }
 
 #home{
-height: 75vh;
+    height: 75vh;
 }
 
-.lead .text-muted{
+.hero h1{
+    font-family: "Martian Mono", monospace;
+}
+.hero p{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color: #1728fd;
+    text-transform: uppercase;
+    font-size: 1em;
+}
 
+.cta-ab{
+    margin-top: 5rem !important;
+}
+
+.cta-ab:hover{
+    background-color: #1728fd;
+}
+
+.about{
+    background-image: url('../assets/img/paint.jpeg');
+    background-position: center;
+    color: #ffffff;
+}
+
+.about p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+}
+
+.services p{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
 }
