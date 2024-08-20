@@ -102,9 +102,6 @@ body {
     color: #555;
 }
 
-footer {
-    margin-top: 2rem;
-}
 
 .nav-item {
     padding: 0 1em;
@@ -140,7 +137,7 @@ footer {
 }
 
 .cta-ab{
-    margin-top: 5rem !important;
+    margin-top: 3rem !important;
 }
 
 .cta-ab:hover{
@@ -152,6 +149,7 @@ footer {
     background-image: url('../assets/img/paint.jpeg');
     background-position: center;
     color: #ffffff;
+    background-size: cover;
 }
 
 .about p{
@@ -162,4 +160,12 @@ footer {
 .services p{
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
+}
+
+.blog{
+    background-image: url('../assets/img/CardDeck.jpeg');
+    background-position: center;
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
